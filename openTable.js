@@ -7,7 +7,7 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "/public/view.html"));
   });
   
-  app.get("/reserve", function(req, res){
+  app.get("/add", function(req, res){
     res.sendFile(path.join(__dirname, "/public/add.html"))
   })
 }
