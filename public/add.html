@@ -74,7 +74,7 @@
       };
 
       // Question: What does this code do??
-      $.post("/api/reservation", newReservation)
+      $.post("/api/tables", newReservation)
         .then(function(data) {
           console.log("add.html", data);
           alert("Making Reservation...");
